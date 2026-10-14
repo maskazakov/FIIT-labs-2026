@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="человек загадывает число.cpp">
+    <ClCompile Include="человек загадывает число компьютеру.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

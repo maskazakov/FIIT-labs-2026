@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{30d23d8d-d6a9-4cd2-83a2-1d5be32e12a7}</ProjectGuid>
-    <RootNamespace>человекзагадываетчисло</RootNamespace>
+    <ProjectGuid>{2650d2c0-5600-43b1-b65c-d907e031e215}</ProjectGuid>
+    <RootNamespace>человекзагадываетчислокомпьютеру</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="человек загадывает число.cpp" />
+    <ClCompile Include="человек загадывает число компьютеру.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
