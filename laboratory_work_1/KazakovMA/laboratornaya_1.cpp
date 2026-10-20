@@ -14,12 +14,12 @@ int main() {
 	if (h >= 180 && h <= 220 && w >= 80 && w <= 120 && d >= 50 && d <= 90)
 	{
 		float M_back = h * w * 0.5 * plot_dvp;
-		float M_sides = 2 * h * d * 1.5 * plot_dsp;
-		float M_bottom = 2 * w * d * 1.5 * plot_dsp;
-		float M_doors = h * w * 1 * plot_wood;
-		int count_of_shelves = (int)(h / 40);
+		float M_sides = 2.0 * h * d * 1.5 * plot_dsp;
+		float M_bottom = 2.0 * w * d * 1.5 * plot_dsp;
+		float M_doors = h * w * 1.0 * plot_wood;
+		int count_of_shelves = (int)(h / 40.0);
 		float M_shelves = w * d * 1.5 * count_of_shelves* plot_dsp;
-		float M_full = (M_back + M_bottom + M_doors + M_shelves + M_sides)/1000;
+		float M_full = (M_back + M_bottom + M_doors + M_shelves + M_sides)/(1000.0);
 		printf("Масса шкафа= %f кг", M_full);
 	}
 
